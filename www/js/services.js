@@ -201,6 +201,7 @@ app.factory('SMLookUpService', function ($http) {
 app.factory('SMPasefloraProductService', function ($http) {
     return {
         GetProductsList: function (productsObj) {
+			alert("aasdasdas");
             return $http.post(Settings.Host + "/api/SMPasefloraProduct/", { ReqType: "GetProductsList", ReqObject: productsObj }, {
                 headers: { 'Content-Type': 'application/json' }
             }).success(function (response) {
