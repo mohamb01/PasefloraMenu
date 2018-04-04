@@ -1,9 +1,10 @@
 {
-  "name": "testApp",
-  "app_id": "",
+  "name": "SmartManagerApp",
+  "app_id": "efb9fed2",
   "type": "ionic1",
   "integrations": {
-    "gulp": {}
+    "gulp": {},
+    "cordova": {}
   },
   "watchPatterns": [
     "scss/**/*",
